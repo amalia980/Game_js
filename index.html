@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JS_G/gamemanager.js"></script>
+    <script src="JS_G/player.js"></script>
+    <script src="JS_G/enemy.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <p>Play the greatest RPG ever to be made!</p>
+        <h2>Choose your character!</h2>
+    </header>
+
+    <!--dead man-->
+
+    <section class="character">
+        <a href="#" onclick="GameManager.setGameStart('Corpse')">
+            <img src="avatars/deadMan.jpg" alt="corpse">
+        
+            <div>
+                <h3>Corpse</h3>
+                <p>Corpse have higher health and stamina of being in war, guns is a favourite weapon of his, even in afterlife. However his strength also makes him slower and clumsier.</p>
+            </div>
+        </a>
+
+    <!--malware-->
+
+        <a href="#" onclick="GameManager.setGameStart('Malware')">
+            <img src="avatars/malware.jpg" alt="Malware">
+        
+        <div>
+            <h3>Malware</h3>
+            <p>Malware fights with manipulation of particles, which means the opponents internals disassemble. Aswell transfer himself from one point to another in a flash.</p>
+        </div>
+    </a>
+
+    <!--Sierra-->
+
+        <a href="#" onclick="GameManager.setGameStart('Sierra')">
+            <img src="avatars/Sierra.jpg" alt="sierra">
+        
+        <div>
+            <h3>Sierra</h3>
+            <p>Sierra has an impressive mastery of chemistry which makes it easy for her to poison her opponents or modify herself with speed or strength thanks to potions.</p>
+        </div>
+    </a>
+
+    <!--Vixer-->
+
+        <a href="#" onclick="GameManager.setGameStart('Vixer')">
+            <img src="avatars/vixer.png" alt="vixer">
+        
+        <div>
+            <h3>Vixer</h3>
+            <p>Vixer is an agile well rounded fighter as her knowledge of the human body helps her finish the job quick and effortless. Even though she likes the edge of an knife time to time. </p>
+        </div>
+    </a>
+    </section>
+
+    <!--get random enemy-->
+
+    <div class="avatar-generator">
+
+    </div>
+
+    <!--The arena for battle-->
+
+    <section class="arena">
+
+    </section>
+
+    <!--Enemy-->
+
+    <section class="enemy">
+
+    </section>
+    
+</body>
+</html>
